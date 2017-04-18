@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import logo from './logo.svg';
+import logo from './logo2.png';
 import './App.css';
 
 class App extends Component {
@@ -42,8 +42,9 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="App-header">
-                    <img src={logo} className="App-logo" alt="logo"/>
-                    <h2>New Profiles UI</h2>
+                <img src="http://media.masslive.com/politics_impact/photo/university-of-massachusetts-system-logojpg-095489fcb17dd6da.jpg" className="App-logo" alt="logo"/>
+                    <h1>UMass Profiles</h1>
+                    <h2>Research Networking Profiles</h2>
                 </div>
                 <div>
                     <form>
